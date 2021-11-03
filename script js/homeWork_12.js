@@ -16,17 +16,17 @@ function Student(name, faculty, marks) {
   };
   this.getInfo = function () {
     return `
-  name: ${this.name}
+  name:    ${this.name}
   faculty: ${(this.faculty = faculty)}
-  marks: ${(this.marks = this.getMaxMark())}`;
+  marks:   ${(this.marks = this.getMaxMark())}`;
   };
-}
+};
 const student = new Student("BOB", "DOCTOR", [50, 30, 60, 80, 50])
-console.log(student.getAvgMark())     // средняя оценка студента
-console.log(student.getMaxMark())     // максимальная оценка
-console.log(student.getMinMark())     // минимальная оценка
-console.log(student.getTotal())       // сумма оценок
-console.log(student.getInfo())        // информация о студенте в виде name + faculty + total
+console.log(student.getAvgMark());     // средняя оценка студента
+console.log(student.getMaxMark());     // максимальная оценка
+console.log(student.getMinMark());     // минимальная оценка
+console.log(student.getTotal());       // сумма оценок
+console.log(student.getInfo());        // информация о студенте в виде name + faculty + total
 
 
 // const studentGetAvgMark = new Student("BOB", "DOCTOR", [50, 50, 50, 50, 50]);
