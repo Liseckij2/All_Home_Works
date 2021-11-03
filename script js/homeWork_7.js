@@ -39,7 +39,7 @@ function calculateNumber() {
          console.log(finalResult);
     }
     let repet = confirm('Повтор?');   
-        if (repet === false) {
+        if (!repet) {
           return
         }
     repeatOperation = +prompt('Повторить с страрым массивом нажмите 1 \nС новым массивом нажмите 2');
