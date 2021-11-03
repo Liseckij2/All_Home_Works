@@ -38,8 +38,8 @@ function calculateNumber() {
          alert(finalResult);   
          console.log(finalResult);
     }
-    let repet = confirm('Повтор?');   
-        if (!repet) {
+    let repeat = confirm('Повтор?');   
+        if (!repeat) {
           return
         }
     repeatOperation = +prompt('Повторить с страрым массивом нажмите 1 \nС новым массивом нажмите 2');
